@@ -49,4 +49,12 @@ Documentation, notes, and lab reports completed during my 60-day internship prog
 2. **Nmap:** Used for network mapping, active host discovery, port scanning, and service version enumeration.
 3. **Burp Suite:** Operates as a local HTTP intercepting web proxy tool to fuzz, manipulate, and analyze web applications.
 4. **Netcat:** The "Swiss Army knife" of networking; used to open raw TCP/UDP ports, establish shells, and debug connections.
+
+-> screenshort of  Metasploitable
 <img width="1366" height="745" alt="Debian 13 x 64-bit - VMware Workstation 7_9_2026 5_41_10 PM" src="https://github.com/user-attachments/assets/1c233eb5-69aa-4bdd-82e1-f237bbe3e351" />
+
+-> Screenshort of Kali linux
+<img width="1366" height="745" alt="Debian 13 x 64-bit - VMware Workstation 7_9_2026 5_54_07 PM" src="https://github.com/user-attachments/assets/d8c67c5a-9c9e-4cac-9b43-51fee8805041" />
+
+-> Screenshort of Wireshark
+<img width="1366" height="745" alt="Debian 13 x 64-bit - VMware Workstation 7_9_2026 5_58_08 PM" src="https://github.com/user-attachments/assets/3a8780dd-37b1-4c2d-9c7e-153d02908bba" />
