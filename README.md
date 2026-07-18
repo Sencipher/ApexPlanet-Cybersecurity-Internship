@@ -42,8 +42,22 @@ Documentation, notes, and lab reports completed during my 60-day internship prog
 | `ping` | Tests network connectivity to a target host | `ping 192.168.75.129` |
 | `netstat`| Shows network connections, routing tables, interface stats| `netstat -antp` |
 
----
+### Part 4: Networking Basics
+*1.   **IP Addressing:** Managed the assignment of unique logical identifiers within our private Class C lab subnet (`192.168.75.x`) to isolate host nodes.
+*2.   **Subnetting:** Utilized a standard `/24` subnet mask (`255.255.255.0`) to define network routing boundaries and organize our host addresses efficiently.
+*3.   **NAT vs. Host-Only:** Configured a strict **Host-Only** switch topology to sever external internet access, ensuring all target traffic remains safely sandboxed inside the hypervisor.
+*4.   **OSI Model vs. TCP/IP Suite:** Analyzed the structural frameworks used to standardize network communications, mapping the theoretical 7-layer OSI model (Physical to Application) directly to the practical 4-layer TCP/IP stack (Network Access, Internet, Transport, Application).
+*5.   **TCP/IP Protocol Suite:** Studied how foundational protocols handle data delivery, focusing on **TCP** (a connection-oriented protocol that ensures reliable, ordered data delivery via a 3-way handshake) and **UDP** (a connectionless, fast protocol used for real-time traffic).
+*6.   **DNS (Domain Name System):** Explored the decentralized naming system that acts as the "phonebook of the internet," resolving human-readable domain names into machine-routable IP addresses.
+*7.   **HTTP vs. HTTPS:** Evaluated the protocols governing web data transfer, contrasting **HTTP** (cleartext, vulnerable to eavesdropping and tampering) with **HTTPS** (secured via SSL/TLS encryption to ensure data confidentiality and integrity).
 
+### Part 5: Cryptography Basics
+*1.   **Symmetric vs. Asymmetric:** Analyzed the structural differences between using a single shared secret key (Symmetric) for speed versus mathematically linked public/private key pairs (Asymmetric) for secure key distribution.
+*2.   **Hashing Algorithms:** Evaluated one-way mathematical functions like MD5 (legacy checksums) and SHA-256 (modern industry standard) used to verify data integrity by generating unique signatures.
+*3.   **Digital Certificates & SSL/TLS:** Explored how trusted Certificate Authorities (CAs) validate public key ownership and how the SSL/TLS handshake protocol establishes secure, encrypted HTTPS tunnels over public networks.
+*4.   **Hands-on Execution:** Implemented native **OpenSSL** terminal commands to practically execute file encryption, decryption, and hash verification operations.
+*
+---
 ### 🛠️ Part 4: Technical Tool Familiarization Reference
 1. **Wireshark:** Used for deep-packet inspection, live traffic analysis, and parsing frame protocol steps.
 2. **Nmap:** Used for network mapping, active host discovery, port scanning, and service version enumeration.
