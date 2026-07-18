@@ -43,22 +43,22 @@ Documentation, notes, and lab reports completed during my 60-day internship prog
 | `netstat`| Shows network connections, routing tables, interface stats| `netstat -antp` |
 
 ### Part 4: Networking Basics
-*1.   **IP Addressing:** Managed the assignment of unique logical identifiers within our private Class C lab subnet (`192.168.75.x`) to isolate host nodes.
-*2.   **Subnetting:** Utilized a standard `/24` subnet mask (`255.255.255.0`) to define network routing boundaries and organize our host addresses efficiently.
-*3.   **NAT vs. Host-Only:** Configured a strict **Host-Only** switch topology to sever external internet access, ensuring all target traffic remains safely sandboxed inside the hypervisor.
-*4.   **OSI Model vs. TCP/IP Suite:** Analyzed the structural frameworks used to standardize network communications, mapping the theoretical 7-layer OSI model (Physical to Application) directly to the practical 4-layer TCP/IP stack (Network Access, Internet, Transport, Application).
-*5.   **TCP/IP Protocol Suite:** Studied how foundational protocols handle data delivery, focusing on **TCP** (a connection-oriented protocol that ensures reliable, ordered data delivery via a 3-way handshake) and **UDP** (a connectionless, fast protocol used for real-time traffic).
-*6.   **DNS (Domain Name System):** Explored the decentralized naming system that acts as the "phonebook of the internet," resolving human-readable domain names into machine-routable IP addresses.
-*7.   **HTTP vs. HTTPS:** Evaluated the protocols governing web data transfer, contrasting **HTTP** (cleartext, vulnerable to eavesdropping and tampering) with **HTTPS** (secured via SSL/TLS encryption to ensure data confidentiality and integrity).
+* **IP Addressing:** Logical identifiers assigned to network interfaces (e.g., `192.168.75.x`).
+* **Subnetting:** Segmenting networks using masks (e.g., `255.255.255.0`) to manage routing boundaries.
+* **NAT vs. Host-Only:** Deployed Host-Only topology to sandbox traffic and isolate the target from the internet.
+* **OSI vs. TCP/IP:** Frameworks standardizing communication across theoretical (7-layer) and practical (4-layer) models.
+* **TCP/IP Suite:** Data delivery protocols focusing on TCP (reliable, connection-oriented) and UDP (fast, connectionless).
+* **DNS:** Resolves human-readable domain names into machine-routable IP addresses.
+* **HTTP vs. HTTPS:** Compares cleartext web transfer (HTTP) against securely encrypted transfer (HTTPS via SSL/TLS).
 
 ### Part 5: Cryptography Basics
-*1.   **Symmetric vs. Asymmetric:** Analyzed the structural differences between using a single shared secret key (Symmetric) for speed versus mathematically linked public/private key pairs (Asymmetric) for secure key distribution.
-*2.   **Hashing Algorithms:** Evaluated one-way mathematical functions like MD5 (legacy checksums) and SHA-256 (modern industry standard) used to verify data integrity by generating unique signatures.
-*3.   **Digital Certificates & SSL/TLS:** Explored how trusted Certificate Authorities (CAs) validate public key ownership and how the SSL/TLS handshake protocol establishes secure, encrypted HTTPS tunnels over public networks.
-*4.   **Hands-on Execution:** Implemented native **OpenSSL** terminal commands to practically execute file encryption, decryption, and hash verification operations.
+* **Symmetric vs. Asymmetric:** Single shared keys for speed vs. public/private key pairs for secure distribution.
+* **Hashing:** One-way functions like MD5 (legacy checksums) and SHA-256 (modern standard) used to verify data integrity.
+* **Certificates & SSL/TLS:** Domain identity verification via Certificate Authorities to establish encrypted HTTPS tunnels.
+* **Hands-on Execution:** Utilizing native `openssl` terminal utilities to handle data encryption and decryption.
 *
 ---
-### 🛠️ Part 4: Technical Tool Familiarization Reference
+### 🛠️ Part 6: Technical Tool Familiarization Reference
 1. **Wireshark:** Used for deep-packet inspection, live traffic analysis, and parsing frame protocol steps.
 2. **Nmap:** Used for network mapping, active host discovery, port scanning, and service version enumeration.
 3. **Burp Suite:** Operates as a local HTTP intercepting web proxy tool to fuzz, manipulate, and analyze web applications.
