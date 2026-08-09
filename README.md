@@ -41,7 +41,7 @@ Documentation, notes, and lab reports completed during my 60-day internship prog
 | `ifconfig`| Displays active network interfaces and IP addresses | `ifconfig` |
 | `ping` | Tests network connectivity to a target host | `ping 192.168.75.129` |
 | `netstat`| Shows network connections, routing tables, interface stats| `netstat -antp` |
-
+---
 ### Part 4: Networking Basics
 * **IP Addressing:** Logical identifiers assigned to network interfaces (e.g., `192.168.75.x`).
 * **Subnetting:** Segmenting networks using masks (e.g., `255.255.255.0`) to manage routing boundaries.
@@ -50,13 +50,13 @@ Documentation, notes, and lab reports completed during my 60-day internship prog
 * **TCP/IP Suite:** Data delivery protocols focusing on TCP (reliable, connection-oriented) and UDP (fast, connectionless).
 * **DNS:** Resolves human-readable domain names into machine-routable IP addresses.
 * **HTTP vs. HTTPS:** Compares cleartext web transfer (HTTP) against securely encrypted transfer (HTTPS via SSL/TLS).
-
+---
 ### Part 5: Cryptography Basics
 * **Symmetric vs. Asymmetric:** Single shared keys for speed vs. public/private key pairs for secure distribution.
 * **Hashing:** One-way functions like MD5 (legacy checksums) and SHA-256 (modern standard) used to verify data integrity.
 * **Certificates & SSL/TLS:** Domain identity verification via Certificate Authorities to establish encrypted HTTPS tunnels.
 * **Hands-on Execution:** Utilizing native `openssl` terminal utilities to handle data encryption and decryption.
-*
+
 ---
 ### 🛠️ Part 6: Technical Tool Familiarization Reference
 1. **Wireshark:** Used for deep-packet inspection, live traffic analysis, and parsing frame protocol steps.
